@@ -1,6 +1,6 @@
 {
   "name": "@haydenbleasel/npm-feed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A handy HTML to JSON parser for NPM",
   "files": [
     "dist"
