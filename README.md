@@ -16,10 +16,10 @@ The module exports a single function that takes an NPM `username` (without the `
 import getNpmFeed from '@haydenbleasel/npm-feed';
 
 /* Example of fetching all packages */
-const feed1 = await getNpmFeed('@haydenbleasel');
+const feed1 = await getNpmFeed('haydenbleasel');
 
 /* Example of fetching namespaced packages only */
-const feed2 = await getNpmFeed('@haydenbleasel', true);
+const feed2 = await getNpmFeed('haydenbleasel', true);
 ```
 
 ## Contributing
