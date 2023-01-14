@@ -1,6 +1,6 @@
 {
   "name": "@beskar-labs/npm-feed",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A handy HTML to JSON parser for NPM",
   "files": [
     "dist"
