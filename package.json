@@ -1,6 +1,6 @@
 {
-  "name": "@haydenbleasel/npm-feed",
-  "version": "1.0.1",
+  "name": "@beskar-labs/npm-feed",
+  "version": "2.0.0",
   "description": "A handy HTML to JSON parser for NPM",
   "files": [
     "dist"
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haydenbleasel/npm-feed.git"
+    "url": "git+https://github.com/beskar-co/npm-feed.git"
   },
   "keywords": [
     "npm",
@@ -29,9 +30,9 @@
   "author": "Hayden Bleasel <hello@haydenbleasel.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haydenbleasel/npm-feed/issues"
+    "url": "https://github.com/beskar-co/npm-feed/issues"
   },
-  "homepage": "https://github.com/haydenbleasel/npm-feed#readme",
+  "homepage": "https://github.com/beskar-co/npm-feed#readme",
   "devDependencies": {
     "@beskar-labs/harmony": "^2.0.8",
     "eslint": "^8.31.0",

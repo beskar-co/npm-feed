@@ -5,7 +5,7 @@ A handy HTML to JSON parser for NPM.
 ## Installation
 
 ```bash
-yarn add @haydenbleasel/npm-feed
+yarn add @beskar-labs/npm-feed
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add @haydenbleasel/npm-feed
 The module exports a single function that takes an NPM `username` (without the `@`) and optionally, a boolean that determines whether to filter for packages namespaced under the `@scope` of the username.
 
 ```jsx
-import getNpmFeed from '@haydenbleasel/npm-feed';
+import getNpmFeed from '@beskar-labs/npm-feed';
 
 /* Example of fetching all packages */
 const feed1 = await getNpmFeed('haydenbleasel');
